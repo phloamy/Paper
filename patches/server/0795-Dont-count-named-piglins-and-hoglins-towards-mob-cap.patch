@@ -5,7 +5,7 @@ Subject: [PATCH] Dont count named piglins and hoglins towards mob cap
 
 
 diff --git a/src/main/java/net/minecraft/world/level/NaturalSpawner.java b/src/main/java/net/minecraft/world/level/NaturalSpawner.java
-index 4286a4b3e2dabcc4c512d250d909e7b074cbfae7..17a52bef19e361483a490ca83ced08ddbb9df3b4 100644
+index ff85355b2cd38521a929bb0c89a8695386e0a3d8..c188b0dc5937322722da1cc1fe370639215e2ba9 100644
 --- a/src/main/java/net/minecraft/world/level/NaturalSpawner.java
 +++ b/src/main/java/net/minecraft/world/level/NaturalSpawner.java
 @@ -83,7 +83,7 @@ public final class NaturalSpawner {
